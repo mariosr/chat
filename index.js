@@ -9,7 +9,7 @@ server.listen(port, function () {
   console.log('running 14sdd');
   console.log('Server listening at port %d', port);
 });
-
+console.log('hello world');
 // Routing
 app.use(express.static(__dirname + '/public'));
 
